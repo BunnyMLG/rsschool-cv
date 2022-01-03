@@ -1,1 +1,1 @@
-# rsschool-cv
+https://bunnymlg.github.io/rsschool-cv/
