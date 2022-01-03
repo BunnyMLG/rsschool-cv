@@ -47,10 +47,11 @@ function multiply(a, b){
 ### Work Experience:
 * *2018 - now*
 
-Chess coach in Kaliningrad
+    Chess coach in Kaliningrad
 * *2015 - 2018*
 
-E-sports commentator and content creator
+    E-sports commentator and content creator
+
 ---
 ### Languages:
 
