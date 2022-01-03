@@ -21,15 +21,17 @@ body{
     
 }
 header{
-    border: 1px solid green;
+    
+    background-color: rgb(240, 229, 171);
 
 }
 main{
-    border: 1px solid red;
+    background-color: rgb(227, 219, 233);
 }
 
 footer{
-    border: 1px solid blue;
+    
+    background-color: rgb(240, 229, 171);
 
 }
 .container{
@@ -51,7 +53,7 @@ footer{
     padding: 0 20px;
     line-height: 50px;
     text-decoration: none;
-    color: rosybrown;
+    color: rgb(158, 118, 118);
     font-size: 20px;
     transition: color 0.5s;
   }
@@ -68,7 +70,7 @@ footer{
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: rosybrown;
+    color: rgb(163, 124, 124);
   }
   
   .nav-link:hover {
@@ -90,7 +92,7 @@ footer{
         position: relative;
         padding: 0;
         margin-bottom: 20px;
-        color: rosybrown;
+        color: rgb(158, 120, 120);
         font-size: 32px;
         font-weight: 400;
         letter-spacing: 5px;
@@ -101,3 +103,43 @@ footer{
     font-style: italic;
 
   }
+
+  .rss{
+    width: 121px;
+    height: 45px;
+    background-image: url(https://rs.school/images/rs_school_js.svg);
+    
+  }
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+
+}
+
+.footer-text{
+    text-decoration: none;
+    color:rosybrown;
+    transition: color 0.5s;
+}
+.footer-text:hover{
+    color: black;
+}
+.footer-text-date{
+    text-decoration: none;
+    color:rosybrown;
+    transition: color 0.5s;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+}
+
+.link:hover{
+    color: #5d7260;
+}
+
