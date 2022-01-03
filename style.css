@@ -1,4 +1,145 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
 body{
-    margin: auto;
-    padding: 100px
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
+header{
+    
+    background-color: rgb(240, 229, 171);
+
+}
+main{
+    background-color: rgb(227, 219, 233);
+}
+
+footer{
+    
+    background-color: rgb(240, 229, 171);
+
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.maincontainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(158, 118, 118);
+    font-size: 20px;
+    transition: color 0.5s;
+  }
+  section{
+    width: 50%;
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  .section-title{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(163, 124, 124);
+  }
+  
+  .nav-link:hover {
+    color: #5d7260;
+  }
+
+  .profile-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgb(0, 0, 0, 20%);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+
+  }
+
+  .main-title{
+        position: relative;
+        padding: 0;
+        margin-bottom: 20px;
+        color: rgb(158, 120, 120);
+        font-size: 32px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        line-height: 50px;
+        
+  }
+  .dates{
+    font-style: italic;
+
+  }
+
+  .rss{
+    width: 121px;
+    height: 45px;
+    background-image: url(https://rs.school/images/rs_school_js.svg);
+    
+  }
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+
+}
+
+.footer-text{
+    text-decoration: none;
+    color:rosybrown;
+    transition: color 0.5s;
+}
+.footer-text:hover{
+    color: black;
+}
+.footer-text-date{
+    text-decoration: none;
+    color:rosybrown;
+    transition: color 0.5s;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+}
+
+.link:hover{
+    color: #5d7260;
+}
+
