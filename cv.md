@@ -5,7 +5,7 @@
 ***
 ### Contact Information:
 
-**Phone:** +79110733976
+**Telegram:** @BunnyMLG
 
 **E-mail:** farionlv@gmail.com
 
@@ -42,6 +42,7 @@ function multiply(a, b){
 * **Riga Chess School Graduate**
 * **HTML Academy Course**
 * **RS School "Stage 0" Course**
+* **RS School "Stage 1" Course**
 
 ---
 ### Work Experience:
